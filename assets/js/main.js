@@ -456,8 +456,7 @@ function initBackToTop() {
 }
 
 // ── CONTACT FORM ──
-// Change this URL if you deploy the server elsewhere (e.g. https://api.yourdomain.com/api/contact)
-const CONTACT_API = 'http://localhost:3001/api/contact';
+const CONTACT_API = 'https://aman-portfolio-server.onrender.com/api/contact';
 
 function initContactForm() {
   const form    = document.getElementById('contact-form');
