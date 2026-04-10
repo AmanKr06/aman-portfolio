@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── PRIMARY SEO ───────────────────────────────────────── -->
+  <title>Aman Kumar — Software Development Engineer</title>
+  <meta name="description"  content="Aman Kumar — SDE-1 at Truminds Software Systems. Building production-grade backend systems, APIs, and automation pipelines for enterprise clients including Luminous and INGKA (IKEA)." />
+  <meta name="keywords"     content="Aman Kumar, Software Engineer, SDE, Truminds, .NET Core, Node.js, SQL, Backend Developer, Portfolio, India" />
+  <meta name="author"       content="Aman Kumar" />
+  <meta name="robots"       content="index, follow" />
+
+  <!--
+    ╔══════════════════════════════════════════════════════╗
+    ║  DEPLOYED URL — UPDATE THIS AFTER DEPLOY             ║
+    ║  Replace BOTH lines below with your real URL.        ║
+    ║  Example: https://aman-portfolio.vercel.app          ║
+    ║        or https://amankumar.dev (if custom domain)   ║
+    ╚══════════════════════════════════════════════════════╝
+  -->
+  <link rel="canonical" href="https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY" />
+
+  <!-- ── OPEN GRAPH (LinkedIn / WhatsApp / Facebook) ──────── -->
+  <meta property="og:type"         content="website" />
+  <meta property="og:site_name"    content="Aman Kumar — Portfolio" />
+  <meta property="og:title"        content="Aman Kumar — Software Development Engineer" />
+  <meta property="og:description"  content="SDE-1 at Truminds Software Systems. Building production-grade backend systems, APIs and automation pipelines for enterprise clients." />
+  <meta property="og:url"          content="https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY" />
+  <meta property="og:image"        content="https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY/assets/images/og-image.jpg" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale"       content="en_IN" />
+
+  <!-- ── TWITTER / X CARD ─────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Aman Kumar — SDE-1 at Truminds" />
+  <meta name="twitter:description" content="Building production-grade backend systems, APIs and automation pipelines. TruRising Star Award recipient." />
+  <meta name="twitter:image"       content="https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY/assets/images/og-image.jpg" />
+
+  <!-- ── FAVICON & THEME COLOR ─────────────────────────────── -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <meta name="theme-color" content="#0f0f1a" />
+
+  <!-- ── JSON-LD STRUCTURED DATA (Google rich results) ────── -->
+  <!--
+    UPDATE sameAs below:
+    Replace YOUR_LINKEDIN_HANDLE with your real LinkedIn profile slug
+    e.g. "https://www.linkedin.com/in/aman-kumar-xyz"
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aman Kumar",
+    "jobTitle": "Software Development Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Truminds Software Systems"
+    },
+    "url": "https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY",
+    "image": "https://REPLACE_WITH_YOUR_URL_AFTER_DEPLOY/assets/images/profile.jpg",
+    "sameAs": [
+      "https://github.com/AmanKr06",
+      "https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"
+    ],
+    "knowsAbout": [".NET Core", "Node.js", "SQL", "Jest", "Oracle Cloud Infrastructure", "Python", "React Native", "Express.js"]
+  }
+  </script>
+
+  <!-- ── STYLES ── -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════
+       NAV
+  ═══════════════════════════ -->
+  <nav>
+    <div class="nav-logo">AK</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀</button>
+      <a href="assets/resume.pdf" download class="nav-resume">Resume ↓</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════
+       HERO
+  ═══════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+        <span class="hero-badge-text">Open to collaborations</span>
+      </div>
+
+      <div id="hero-avatar"></div>
+
+      <h1 class="hero-name" id="hero-name">Aman <span>Kumar</span></h1>
+      <p class="hero-role"   id="hero-role">Software Development Engineer I</p>
+      <p class="hero-company" id="hero-company">@ Truminds Software Systems</p>
+
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="#projects" class="btn-secondary">View My Work</a>
+      </div>
+
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       ABOUT
+  ═══════════════════════════ -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <h2 class="section-title">
+            Building software that<br>
+            <em style="font-style:normal; color:var(--accent)">actually matters.</em>
+          </h2>
+          <div id="about-bio">
+            <!-- Populated by main.js from portfolio.json -->
+          </div>
+        </div>
+
+        <div id="about-stats" class="about-stats reveal-stagger">
+          <!-- Populated by main.js from portfolio.json -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       EXPERIENCE
+  ═══════════════════════════ -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title reveal">Where I've worked</h2>
+      <p class="section-subtitle reveal">My professional journey so far.</p>
+      <div class="timeline" id="timeline">
+        <!-- Populated by main.js from portfolio.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       SKILLS
+  ═══════════════════════════ -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-label">Skills & Stack</div>
+      <h2 class="section-title reveal">Tools I work with</h2>
+      <p class="section-subtitle reveal">My current tech stack — built through real projects and continued learning.</p>
+      <div class="skills-grid" id="skills-grid">
+        <!-- Populated by main.js from portfolio.json -->
+      </div>
+
+      <!-- GitHub Live Stats — populated by github.js, hidden until loaded -->
+      <div id="github-stats" style="margin-top: 3rem; display: none;"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       PROJECTS
+  ═══════════════════════════ -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title reveal">Things I've built</h2>
+      <p class="section-subtitle reveal">A selection of projects — personal, professional, and everything in between.</p>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Populated by main.js from portfolio.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       CERTIFICATIONS & AWARDS
+  ═══════════════════════════ -->
+  <section id="certifications">
+    <div class="section-inner">
+      <div class="section-label">Recognition</div>
+      <h2 class="section-title reveal">Certifications &amp; Awards</h2>
+      <p class="section-subtitle reveal">Recognition received and credentials earned along the way.</p>
+      <div class="certs-grid" id="certs-grid">
+        <!-- Populated by main.js -->
+      </div>
+    </div>
+  </section>
+
+    <!-- ═══════════════════════════
+       CONTACT
+  ═══════════════════════════ -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title reveal">Let's connect</h2>
+      <div class="contact-wrapper">
+
+        <div class="contact-info reveal">
+          <p>Whether it's a collaboration, a project idea, or just a conversation about tech — I'm always happy to chat.</p>
+          <div id="contact-links">
+            <!-- Populated by main.js from portfolio.json -->
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" placeholder="Hey Aman, I'd love to connect about..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       FOOTER
+  ═══════════════════════════ -->
+  <footer>
+    <p>
+      Designed & built by <span id="footer-name">Aman Kumar</span> —
+      <span id="footer-role">SDE-1</span> at
+      <span id="footer-company">Truminds Software Systems</span>
+    </p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+      © <span id="footer-year"></span> · All rights reserved
+    </p>
+  </footer>
+
+  <!-- ═══════════════════════════
+       LIGHTBOX
+  ═══════════════════════════ -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Profile photo" />
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+    <!-- ═══════════════════════════
+       BACK TO TOP
+  ═══════════════════════════ -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- ═══════════════════════════
+       SCRIPTS
+  ═══════════════════════════ -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/github.js"></script>
+  <script>
+    // Footer year — auto-updates every year
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

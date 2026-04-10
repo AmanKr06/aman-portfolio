@@ -1,0 +1,299 @@
+{
+  "personal": {
+    "name": "Aman Kumar",
+    "role": "Software Development Engineer I",
+    "company": "Truminds Software Systems",
+    "email": "zzk5153@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aman-kumar-927804216/",
+    "github": "https://github.com/AmanKr06",
+    "location": "Gurugram, India",
+    "bio": [
+      "I'm a Software Development Engineer at Truminds Software Systems, where I build production-grade backend systems, APIs, and automation pipelines for enterprise clients \u2014 including Luminous and INGKA (IKEA).",
+      "My work spans the full backend lifecycle: from designing cascading database schemas and migrating 258 APIs from .NET Framework to .NET Core, to resolving critical production bugs affecting 20\u201330K users and deploying containerized workloads on Oracle Cloud Infrastructure.",
+      "I'm driven by turning complex, ambiguous requirements into clean, maintainable systems. Currently exploring LLM-based test automation and vibe coding to push what's possible in how we build software."
+    ],
+    "availability": "Open to collaborations"
+  },
+  "stats": [
+    {
+      "value": "3.5+",
+      "label": "Year of professional experience"
+    },
+    {
+      "value": "258",
+      "label": "APIs migrated to .NET Core"
+    },
+    {
+      "value": "EA",
+      "label": "Rated: Exceptional Achiever"
+    },
+    {
+      "value": "30K",
+      "label": "Users impacted by production fix"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Development Engineer I",
+      "company": "Truminds Software Systems",
+      "duration": "2024 \u2014 Present",
+      "location": "Gurugram, India",
+      "type": "Full-time",
+      "description": "Building backend systems and APIs for enterprise clients including Luminous and INGKA (IKEA). Delivered modules spanning API migration, rule engines, push notifications, document verification, and cloud infrastructure POCs.",
+      "highlights": [
+        "Migrated 258 APIs from .NET Framework to .NET Core MVC across mPartner microservices (UserEngagement, ISmart, HomeScreen)",
+        "Built configurable Rule Engine for admin-defined reward schemes with geo/user-type filters \u2014 validated on live production data",
+        "Designed and delivered the Assessment/LMS Module with cascading DB schema \u2014 zero post-production bugs",
+        "Resolved critical combo sales bug affecting 20\u201330K users \u2014 traced to session-scoped global tables in stored procedures",
+        "Built Firebase push notification system with background job running every 5 min via Task Scheduler",
+        "Led OCI POC: containerized .NET backend with Load Balancing for High Availability on Oracle Cloud",
+        "Implemented document tampering detection using Error Level Analysis (ELA) and Double Compression algorithms",
+        "Awarded TruRising Star \u2014 July 2024"
+      ]
+    },
+    {
+      "role": "Software Engineering Intern",
+      "company": "Truminds Software Systems",
+      "duration": "2023 \u2014 2024",
+      "location": "Gurugram, India",
+      "type": "Internship",
+      "description": "Contributed to live client projects from day one across Luminous Sales One and mPartner. Built APIs, bulk sale features, document verification, and geolocation tooling. Rated Exceptional Achiever on majority of deliverables.",
+      "highlights": [
+        "Built ASM and distributor/dealer mapping APIs for Luminous Sales One project",
+        "Developed Secondary Bulk Sale feature \u2014 up to 1000 product registrations per batch via Excel upload",
+        "Built Tertiary Bulk Sale with OTP creation/verification and SMS stored procedure for multi-serial delivery",
+        "Integrated Signzy for real-time Aadhaar, PAN, KYC and passport verification",
+        "Built GeoLocation Finder standalone app using Google Geocoding API",
+        "Developed Common File Upload Service utility used across multiple microservices",
+        "Converted to full-time SDE-1 role based on performance"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        {
+          "name": "C / C++",
+          "pct": 85
+        },
+        {
+          "name": "Python",
+          "pct": 80
+        },
+        {
+          "name": "JavaScript / TypeScript",
+          "pct": 72
+        },
+        {
+          "name": "T-SQL",
+          "pct": 78
+        }
+      ]
+    },
+    {
+      "category": "Frameworks & Tools",
+      "items": [
+        {
+          "name": ".NET Core / Framework",
+          "pct": 78
+        },
+        {
+          "name": "React Native",
+          "pct": 60
+        },
+        {
+          "name": "Jest (Unit Testing)",
+          "pct": 72
+        },
+        {
+          "name": "Git & GitHub",
+          "pct": 80
+        }
+      ]
+    },
+    {
+      "category": "Cloud & Architecture",
+      "items": [
+        {
+          "name": "Oracle Cloud (OCI)",
+          "pct": 62
+        },
+        {
+          "name": "REST API Design",
+          "pct": 80
+        },
+        {
+          "name": "System Design / HLD / DFD",
+          "pct": 72
+        },
+        {
+          "name": "SQL Profiler & Tuning",
+          "pct": 70
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "mPartner \u2014 258 API Migration",
+      "subtitle": "Luminous \u00b7 Truminds",
+      "description": "Led migration of 258 APIs from .NET Framework to .NET Core MVC across UserEngagement, ISmart, and HomeScreen/Login microservices \u2014 zero regression, improved platform performance.",
+      "tech": [
+        ".NET Core",
+        "T-SQL",
+        "REST APIs",
+        "Microservices"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": true
+    },
+    {
+      "title": "Rule Engine \u2014 Rewards Platform",
+      "subtitle": "Luminous \u00b7 Truminds",
+      "description": "Built a configurable Rule Engine enabling admins to define reward schemes via geo filters (region, state, district, pincode) and user-type filters. Validated against a full month of live production data. Rated Exceptional Achiever.",
+      "tech": [
+        ".NET Core",
+        "T-SQL",
+        "SQL Server",
+        "Admin Portal"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": true
+    },
+    {
+      "title": "Production Bug Fix \u2014 30K Users",
+      "subtitle": "Luminous \u00b7 Truminds",
+      "description": "Debugged and resolved a critical combo sales issue affecting 20\u201330K users that had stumped QA and the client. Root cause: session-scoped global tables in stored procedures. Fixed at DB level, restoring full platform stability.",
+      "tech": [
+        "SQL Server",
+        "T-SQL",
+        "Stored Procedures",
+        "Debugging"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": true
+    },
+    {
+      "title": "Automated RDLC Reporting System",
+      "subtitle": "Truminds",
+      "description": "Built a production-grade automated reporting system on Classic .NET Framework. A Task Scheduler-driven console application handles FTR data uploads to the DB on a defined schedule \u2014 shipped cleanly with no post-production issues.",
+      "tech": [
+        ".NET Framework",
+        "SQL Server",
+        "RDLC",
+        "Task Scheduler"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": false
+    },
+    {
+      "title": "Firebase Push Notification System",
+      "subtitle": "Luminous \u00b7 Truminds",
+      "description": "Built the backend architecture for a Firebase push notification system. A background job runs every 5 minutes via Task Scheduler, triggering alerts for sales events, dealer creation, and approval workflows through the Admin Portal.",
+      "tech": [
+        "Firebase",
+        ".NET Core",
+        "Task Scheduler",
+        "SQL Server"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": false
+    },
+    {
+      "title": "Document Tampering Detection",
+      "subtitle": "Truminds R&D",
+      "description": "Python-based document authenticity system using Error Level Analysis (ELA) and Double Compression algorithms to detect subtle digital artefacts introduced by image editing tools.",
+      "tech": [
+        "Python",
+        "ELA",
+        "Double Compression",
+        "Image Processing"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": false
+    },
+    {
+      "title": "OCI Cloud Infrastructure POC",
+      "subtitle": "Truminds R&D",
+      "description": "Deployed a containerized and VM-based .NET backend on Oracle Cloud Infrastructure with Load Balancing for High Availability \u2014 completed alongside active sprint commitments as a concurrent R&D initiative.",
+      "tech": [
+        "Oracle Cloud",
+        ".NET",
+        "Docker",
+        "Load Balancer",
+        "VM"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": false
+    },
+    {
+      "title": "Panasonic MirAIe \u2014 Frontend",
+      "subtitle": "Panasonic \u00b7 Truminds",
+      "description": "Developed the Tenant Info screen, workspace selection bottom sheet, and device status cards for the Panasonic MirAIe smart home app in React Native \u2014 following Figma design specifications.",
+      "tech": [
+        "React Native",
+        "TypeScript",
+        "Figma"
+      ],
+      "github": "",
+      "live": "",
+      "status": "proprietary",
+      "featured": false
+    },
+    {
+      "title": "Digital-Products",
+      "subtitle": "Personal Project",
+      "description": "A personal web project built for couples \u2014 exploring shared digital experiences. Built independently as a learning project.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": "https://github.com/AmanKr06/DigitalProduct",
+      "live": "",
+      "status": "personal",
+      "featured": false
+    },
+    {
+      "title": "LLM-Based Test Automation",
+      "subtitle": "Personal R&D",
+      "description": "Exploring automated test case generation using LLMs and vibe coding workflows \u2014 reducing manual QA effort by generating and validating test suites from natural language requirements.",
+      "tech": [
+        "Python",
+        "LLMs",
+        "Prompt Engineering",
+        "Jest"
+      ],
+      "github": "",
+      "live": "",
+      "status": "in-progress",
+      "featured": false
+    }
+  ],
+  "certifications": [
+    {
+      "title": "TruRising Star Award",
+      "issuer": "Truminds Software Systems",
+      "date": "July 2024",
+      "type": "award",
+      "icon": "\u2b50",
+      "description": "Recognized for consistent high-impact delivery and contributions across client workstreams (Luminous, INGKA) in the first year as an SDE-1.",
+      "attachment": "assets/images/certs/tru-rising-star.jpg"
+    }
+  ]
+}
