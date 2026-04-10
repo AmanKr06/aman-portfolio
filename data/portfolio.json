@@ -8,8 +8,8 @@
     "github": "https://github.com/AmanKr06",
     "location": "Gurugram, India",
     "bio": [
-      "I'm a Software Development Engineer at Truminds Software Systems, where I build production-grade backend systems, APIs, and automation pipelines for enterprise clients \u2014 including Luminous and INGKA (IKEA).",
-      "My work spans the full backend lifecycle: from designing cascading database schemas and migrating 258 APIs from .NET Framework to .NET Core, to resolving critical production bugs affecting 20\u201330K users and deploying containerized workloads on Oracle Cloud Infrastructure.",
+      "I'm a Software Developer keen to work in organisations that bring excitement to innovation. Besides the skills, I bring to the table an eagerness to learn and engage in collaborative interdisciplinary work. I have built production-grade backend systems, APIs, and automation pipelines for enterprise clients \u2014 including Luminous and INGKA (IKEA).",
+      "My work spans the full backend lifecycle: from designing database schemas, optimizing Stored Procedures, authoring APIs in .NET Core, to resolving critical production bugs affecting 100\u2013150K users and deploying containerized workloads on Oracle Cloud Infrastructure.",
       "I'm driven by turning complex, ambiguous requirements into clean, maintainable systems. Currently exploring LLM-based test automation and vibe coding to push what's possible in how we build software."
     ],
     "availability": "Open to collaborations"
@@ -28,7 +28,7 @@
       "label": "Rated: Exceptional Achiever"
     },
     {
-      "value": "30K",
+      "value": "150K",
       "label": "Users impacted by production fix"
     }
   ],
@@ -36,7 +36,7 @@
     {
       "role": "Software Development Engineer I",
       "company": "Truminds Software Systems",
-      "duration": "2024 \u2014 Present",
+      "duration": "Nov 2023 \u2014 Present",
       "location": "Gurugram, India",
       "type": "Full-time",
       "description": "Building backend systems and APIs for enterprise clients including Luminous and INGKA (IKEA). Delivered modules spanning API migration, rule engines, push notifications, document verification, and cloud infrastructure POCs.",
@@ -44,7 +44,7 @@
         "Migrated 258 APIs from .NET Framework to .NET Core MVC across mPartner microservices (UserEngagement, ISmart, HomeScreen)",
         "Built configurable Rule Engine for admin-defined reward schemes with geo/user-type filters \u2014 validated on live production data",
         "Designed and delivered the Assessment/LMS Module with cascading DB schema \u2014 zero post-production bugs",
-        "Resolved critical combo sales bug affecting 20\u201330K users \u2014 traced to session-scoped global tables in stored procedures",
+        "Resolved critical combo sales bug affecting 100\u2013150K users \u2014 traced to session-scoped global tables in stored procedures",
         "Built Firebase push notification system with background job running every 5 min via Task Scheduler",
         "Led OCI POC: containerized .NET backend with Load Balancing for High Availability on Oracle Cloud",
         "Implemented document tampering detection using Error Level Analysis (ELA) and Double Compression algorithms",
@@ -54,8 +54,8 @@
     {
       "role": "Software Engineering Intern",
       "company": "Truminds Software Systems",
-      "duration": "2023 \u2014 2024",
-      "location": "Gurugram, India",
+      "duration": "Feb 2023 \u2014 Oct 2023",
+      "location": "Bangalore, India",
       "type": "Internship",
       "description": "Contributed to live client projects from day one across Luminous Sales One and mPartner. Built APIs, bulk sale features, document verification, and geolocation tooling. Rated Exceptional Achiever on majority of deliverables.",
       "highlights": [
@@ -64,8 +64,7 @@
         "Built Tertiary Bulk Sale with OTP creation/verification and SMS stored procedure for multi-serial delivery",
         "Integrated Signzy for real-time Aadhaar, PAN, KYC and passport verification",
         "Built GeoLocation Finder standalone app using Google Geocoding API",
-        "Developed Common File Upload Service utility used across multiple microservices",
-        "Converted to full-time SDE-1 role based on performance"
+        "Developed Common File Upload Service utility used across multiple microservices"
       ]
     }
   ],
@@ -75,7 +74,7 @@
       "items": [
         {
           "name": "C / C++",
-          "pct": 85
+          "pct": 95
         },
         {
           "name": "Python",
@@ -83,11 +82,11 @@
         },
         {
           "name": "JavaScript / TypeScript",
-          "pct": 72
+          "pct": 90
         },
         {
           "name": "T-SQL",
-          "pct": 78
+          "pct": 95
         }
       ]
     },
@@ -96,19 +95,19 @@
       "items": [
         {
           "name": ".NET Core / Framework",
-          "pct": 78
+          "pct": 90
         },
         {
           "name": "React Native",
-          "pct": 60
+          "pct": 70
         },
         {
           "name": "Jest (Unit Testing)",
-          "pct": 72
+          "pct": 95
         },
         {
           "name": "Git & GitHub",
-          "pct": 80
+          "pct": 95
         }
       ]
     },
@@ -117,19 +116,19 @@
       "items": [
         {
           "name": "Oracle Cloud (OCI)",
-          "pct": 62
-        },
-        {
-          "name": "REST API Design",
           "pct": 80
         },
         {
+          "name": "REST API Design",
+          "pct": 95
+        },
+        {
           "name": "System Design / HLD / DFD",
-          "pct": 72
+          "pct": 80
         },
         {
           "name": "SQL Profiler & Tuning",
-          "pct": 70
+          "pct": 95
         }
       ]
     }
@@ -158,22 +157,8 @@
         ".NET Core",
         "T-SQL",
         "SQL Server",
-        "Admin Portal"
-      ],
-      "github": "",
-      "live": "",
-      "status": "proprietary",
-      "featured": true
-    },
-    {
-      "title": "Production Bug Fix \u2014 30K Users",
-      "subtitle": "Luminous \u00b7 Truminds",
-      "description": "Debugged and resolved a critical combo sales issue affecting 20\u201330K users that had stumped QA and the client. Root cause: session-scoped global tables in stored procedures. Fixed at DB level, restoring full platform stability.",
-      "tech": [
-        "SQL Server",
-        "T-SQL",
-        "Stored Procedures",
-        "Debugging"
+        "Admin Portal",
+        "Stored Procedures"
       ],
       "github": "",
       "live": "",
@@ -279,9 +264,9 @@
         "Prompt Engineering",
         "Jest"
       ],
-      "github": "",
+      "github": "https://github.com/AmanKr06/self-healing-test-gen",
       "live": "",
-      "status": "in-progress",
+      "status": "personal",
       "featured": false
     }
   ],
@@ -291,9 +276,36 @@
       "issuer": "Truminds Software Systems",
       "date": "July 2024",
       "type": "award",
-      "icon": "\u2b50",
+      "icon": "\ud83c\udfc6",
       "description": "Recognized for consistent high-impact delivery and contributions across client workstreams (Luminous, INGKA) in the first year as an SDE-1.",
       "attachment": "assets/images/certs/tru-rising-star.jpg"
-    }
+    },
+    {
+      "title": "Algorithms",
+      "issuer": "Coding Ninjas",
+      "date": "November 2021",
+      "type": "cert",
+      "icon": "\ud83c\udf93",
+      "description": "Certificate of Excellence - 99%, for completing the algorithms within the deadline and a final score surpassing 99.99 of the batchmates",
+      "attachment": "assets/images/certs/algorithms.pdf"
+    },
+    {
+      "title": "NodeJS Online Course",
+      "issuer": "Coding Blocks",
+      "date": "June 2022",
+      "type": "cert",
+      "icon": "\ud83c\udf93",
+      "description": "Course Completion - Demonstrated practical proficiency in building scalable server-side applications and robust RESTful APIs.",
+      "attachment": "assets/images/certs/nodeJS.pdf"
+    },
+    {
+      "title": "Python Bootcamp",
+      "issuer": "Udemy",
+      "date": "Feb 2026",
+      "type": "cert",
+      "icon": "\ud83c\udf93",
+      "description": "Certificate of Completion - Learned core Python concepts, object-oriented programming, and scripting, demonstrating the ability to build functional real-world applications and automate complex workflows.",
+      "attachment": "assets/images/certs/python.pdf"
+    }         
   ]
 }
