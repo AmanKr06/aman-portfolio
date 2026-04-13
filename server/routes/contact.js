@@ -32,7 +32,7 @@ router.post('/', async (req, res) => {
   try {
     // Email to you
     await resend.emails.send({
-      from: 'Portfolio Contact <onboarding@resend.dev>',
+      from: 'Portfolio Contact <contact@iamaman.dev>',
       to:   [receiverEmail],
       reply_to: email.trim(),
       subject: `New message from ${name.trim()} — Portfolio`,
@@ -55,7 +55,7 @@ router.post('/', async (req, res) => {
 
     // Auto-reply to sender
     await resend.emails.send({
-      from: 'Aman Kumar <onboarding@resend.dev>',
+      from: 'Aman Kumar <contact@iamaman.dev>',
       to:   [email.trim()],
       subject: `Thanks for reaching out, ${name.trim().split(' ')[0]}! 👋`,
       html: `
