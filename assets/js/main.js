@@ -6,7 +6,7 @@
 const FALLBACK_DATA = {
   personal: {
     name: "Aman Kumar",
-    role: "Software Development Engineer I",
+    role: "Software Development Engineer II",
     company: "Truminds Software Systems",
     email: "zzk5153@gmail.com",
     linkedin: "https://www.linkedin.com/in/aman-kumar-927804216/",
@@ -27,9 +27,24 @@ const FALLBACK_DATA = {
   ],
   experience: [
     {
+      role: "Software Development Engineer II",
+      company: "Truminds Software Systems",
+      duration: "2026 — Present",
+      location: "Gurugram, India",
+      type: "Full-time",
+      description: "Driving AI-accelerated product development on TruIAM — Truminds' internal Identity & Access Management (IAM) platform. Pioneering multi-agent (“vibe coding”) workflows with Claude Code to compress delivery timelines without sacrificing production quality.",
+      highlights: [
+        "Rebuilt the entire TruIAM frontend with full end-to-end backend integration in under 3 weeks — versus the 3–4 months taken by the legacy build",
+        "Orchestrated a multi-agent Claude Code workflow as the delivery engine — authoring custom skills, specialized sub-agents, slash commands, and a tailored agent harness",
+        "Defined the system architecture, Design Language System (DLS), and Technical Specification Documents (TSDs) that drove deterministic, spec-driven AI code generation",
+        "Built the new frontend in Next.js with a modern, type-safe React stack and fully wired backend APIs",
+        "Established multi-agent / “vibe coding” practices as an emerging internal standard for accelerating product delivery"
+      ]
+    },
+    {
       role: "Software Development Engineer I",
       company: "Truminds Software Systems",
-      duration: "2024 — Present",
+      duration: "2024 — 2026",
       location: "Gurugram, India",
       type: "Full-time",
       description: "Building backend systems and APIs for enterprise clients (Luminous, INGKA/IKEA, Panasonic). Delivered modules spanning API migration, rule engines, push notifications, document verification, and cloud infrastructure POCs.",
